@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  border-radius: 15px 4px;
+  background: #061854;
+  padding: 17px 27px 17px 28px;
+  width: 163px;
+  height: 54px;
+
+  .contCtanos {
+    line-height: 20px;
+    letter-spacing: 0;
+    color: #ffffff;
+    font-family: "David Libre", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
