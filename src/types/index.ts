@@ -5,7 +5,7 @@ export interface BaseComponentProps {
 }
 
 // Button component types
-export type ButtonVariant = 'primary' | 'secondary' | 'contact';
+export type ButtonVariant = 'primary' | 'secondary' | 'contact' | 'contact-mobile';
 export type ButtonSize = 'sm' | 'md' | 'lg';
 
 export interface ButtonProps extends BaseComponentProps {
@@ -35,9 +35,8 @@ export interface Testimonial {
 
 // Navigation types
 export interface NavItem {
-  label: string;
-  href: string;
-  isActive?: boolean;
+  name: string;
+  path: string;
 }
 
 // Contact information types

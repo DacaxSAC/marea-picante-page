@@ -2,11 +2,10 @@ import { MenuItem, Testimonial, NavItem, ContactInfo, SocialLink } from '../type
 
 // Navigation items
 export const NAV_ITEMS: NavItem[] = [
-  { label: 'Inicio', href: '#inicio' },
-  { label: 'Nosotros', href: '#nosotros' },
-  { label: 'Carta', href: '#carta' },
-  { label: 'Chefs', href: '#chefs' },
-  { label: 'Contacto', href: '#contacto' },
+  { name: 'Inicio', path: '/' },
+  { name: 'Carta', path: '/carta' },
+  { name: 'Galería', path: '/galeria' },
+  { name: 'Sobre nosotros', path: '/sobre-nosotros' }
 ];
 
 // Menu items data
